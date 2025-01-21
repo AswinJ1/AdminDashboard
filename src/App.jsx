@@ -6,10 +6,14 @@ import Main from './components/Main'
 const App = () => {
   return (
    <>
-   <Header></Header>
-   <Sidebar className="hidden md:block" ></Sidebar>
-   <Main></Main>
  
+ <Header />
+      <div className="flex">
+        <Sidebar />
+        <div className="flex-grow"> {/* This ensures the main content takes available space */}
+          <Main />
+        </div>
+      </div>
    
    </>
   )

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-    <div className="fixed left-0 bottom-0  z-[200] w-[72px] top-0 h-screen bg-black flex flex-col items-center border border-slate-700">
+    <div className="fixed left-0 bottom-0  z-[200] w-[72px] top-0 h-screen bg-black flex flex-col items-center border border-slate-700 md:hidden ">
     <div className="mb-[24px] h-[34px] w-[40px] cursor-pointer flex items-center justify-center flex-col ">
       <img src="/assets/Logo.svg" alt="Logo" className="h-[30px] mb-[4px] pt-2 mt-4" />
     </div>
