@@ -7,7 +7,7 @@ const App = () => {
   return (
    <>
    <Header></Header>
-   <Sidebar></Sidebar>
+   <Sidebar className="hidden md:block" ></Sidebar>
    <Main></Main>
  
    
