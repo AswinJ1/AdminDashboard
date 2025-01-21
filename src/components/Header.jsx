@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div class="flex fixed space-x-[230px] top-0 left-[69px] right-0 z-[100] bg-black w-full px-4 py-4 border border-slate-700">
+    <div class="flex fixed space-x-[230px] top-0 left-[69px] right-0 z-[100] bg-black w-full px-4 py-4 border border-slate-700 md:flex">
 
   <div class="flex items-center">
     <h1 class="text-lg font-bold mr-4 text-white">Dashboard</h1>

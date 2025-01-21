@@ -2,7 +2,7 @@ import React from "react";
 
 const Bottom = () => {
   return (
-    <div className="bg-gray-900 text-white p-2 rounded-lg shadow-md w-full max-w-3xl mx-auto ml-5 mb-2">
+    <div className="bg-gray-900 text-white p-2 rounded-lg shadow-md w-full max-w-3xl mx-auto ml-5 mb-2 md:flex">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">Popular Campaigns</h2>
         <button className="bg-gray-800 text-gray-300 px-3 py-1 rounded-lg flex items-center">

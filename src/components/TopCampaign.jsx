@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopCampaign = () => {
   return (
-    <div className="bg-slate-900 text-white p-4 rounded-lg lg:w-[378px] w-full mt-8 ">
+    <div className="bg-slate-900 text-white p-4 rounded-lg lg:w-[378px] w-full mt-8 md:flex sm:flex">
       {/* Header Section */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold">My Top Campaigns</h2>

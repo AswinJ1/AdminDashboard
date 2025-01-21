@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopRight = () => {
   return (
-    <div className="w-80 bg-slate-900 text-white rounded-2xl p-4 shadow-lg space-y-4 relative">
+    <div className="w-80 bg-slate-900 text-white rounded-2xl p-4 shadow-lg space-y-4 relative md:flex sm:flex">
       {/* Header */}
       <div className="flex justify-between items-center">
         <span className="text-xs uppercase text-gray-400">Ads</span>

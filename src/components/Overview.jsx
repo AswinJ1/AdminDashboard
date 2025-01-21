@@ -72,7 +72,7 @@ const Overview = () => {
 
   return (
     
-    <div className="mr-0">
+    <div className="mr-0 md:flex flex">
   {/* My Campaigns Section */}
   <div className="flex items-center mb-6">
     <div className="mr-[24px]">
